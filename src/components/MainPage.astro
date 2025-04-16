@@ -1,0 +1,87 @@
+---
+import menuData from "../data/menu.json";
+---
+
+<section class="hero">
+    <img
+        src="/images/restaurant-name.png"
+        alt="Restaurant Name"
+        class="restaurant-name-image"
+    />
+    <p class="moto">Your new favorite spot to dine</p>
+    <p class="hours">Open today: 11:00 AM - 10:00 PM</p>
+</section>
+
+<!-- About Us -->
+<section id="about-us" class="about-section content-container">
+    <img
+        src="/images/restaurant-interior-mock1.jpg"
+        alt="Restaurant Interior"
+        class="about-image"
+    />
+    <div class="about-text">
+        <h2>About Us</h2>
+        <p>
+            Welcome to our restaurant, where we blend tradition and taste to
+            create unforgettable dining experiences...
+        </p>
+        <p>
+            Welcome to our restaurant, where we blend tradition and taste to
+            create unforgettable dining experiences...
+        </p>
+        <p>
+            Welcome to our restaurant, where we blend tradition and taste to
+            create unforgettable dining experiences...
+        </p>
+        <p>
+            Welcome to our restaurant, where we blend tradition and taste to
+            create unforgettable dining experiences...
+        </p>
+        <p>
+            Welcome to our restaurant, where we blend tradition and taste to
+            create unforgettable dining experiences... asdfsaasdfasdfasdf
+            adsfasdfasdfaasdfas asdf asd asf asdf asdf asdfads a a fasf
+        </p>
+    </div>
+</section>
+
+<!-- Parallax Section -->
+<section id="menu" class="parallax">
+    <div class="content">
+        <h1>Menu</h1>
+        <h3>All of Italy on one plate - in the restaurant or to take away!</h3>
+    </div>
+</section>
+
+<!-- Menu -->
+<section class="menu-section content-container">
+    <div class="menu-columns">
+        {
+            menuData.map((section, index) => (
+                <div
+                    class="menu-column"
+                    class:list-left={index % 2 === 0}
+                    class:list-right={index % 2 === 1}
+                >
+                    <h3>{section.title}</h3>
+                    <ul class="menu-category">
+                        {section.items.map((item) => (
+                            <li>
+                                <div class="menu-item-header">
+                                    <span class="dish-name">{item.name}</span>
+                                    <span class="dish-price">
+                                        ${item.price}
+                                    </span>
+                                </div>
+                                <div class="menu-dots" />
+                                <p class="dish-description">
+                                    {item.description}
+                                </p>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            ))
+        }
+    </div>
+</section>

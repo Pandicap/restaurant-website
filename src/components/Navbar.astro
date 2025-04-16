@@ -1,0 +1,66 @@
+<nav class="navbar">
+    <div class="logo" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+        <img src="/images/logo.png" alt="Restaurant Logo" />
+    </div>
+    <ul class="nav-links">
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu-button">☰</div>
+    <ul class="mobile-nav">
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <!-- <button class="theme-toggle" onclick="document.body.classList.toggle('red-theme')">Toggle Theme</button> -->
+</nav>
+
+<script>
+    const menuButton = document.querySelector('.menu-button');
+    const mobileNav = document.querySelector('.mobile-nav');
+    const mobileLinks = document.querySelectorAll('.mobile-nav a');
+    const allLinks = document.querySelectorAll('.nav-links a, .mobile-nav a');
+
+    menuButton?.addEventListener('click', () => {
+      mobileNav?.classList.toggle('show');
+    });
+
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        mobileNav?.classList.remove('show');
+      });
+    });
+
+    // Active link handling
+    const sections = ['about-us', 'menu', 'contact'];
+    const OFFSET = 120; // for scroll padding
+
+    function updateActiveLink() {
+      const scrollY = window.scrollY + OFFSET;
+      const bottomReached = window.innerHeight + window.scrollY >= document.body.offsetHeight - 10;
+
+      let activeId = '';
+
+      for (const id of sections) {
+        const section = document.getElementById(id);
+        if (section && scrollY >= section.offsetTop && scrollY < section.offsetTop + section.offsetHeight) {
+          activeId = id;
+          break;
+        }
+      }
+
+      // Force "contact" active if bottom is reached
+      if (bottomReached) {
+        activeId = 'contact';
+      }
+
+      allLinks.forEach(link => {
+        link.classList.toggle('active', link.getAttribute('href') === `#${activeId}`);
+      });
+    }
+
+    document.addEventListener('scroll', updateActiveLink);
+    window.addEventListener('resize', updateActiveLink);
+    updateActiveLink(); // Run on load
+</script>

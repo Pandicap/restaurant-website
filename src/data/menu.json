@@ -1,0 +1,32 @@
+[
+    {
+      "title": "Starters",
+      "items": [
+        { "name": "Bruschetta", "price": 6, "description": "Grilled bread with tomato and basil." },
+        { "name": "Garlic Bread", "price": 5, "description": "Toasted bread with garlic and butter." },
+        { "name": "Garlic Bread", "price": 5, "description": "Toasted bread with garlic and butter." },
+        { "name": "Garlic Bread", "price": 5, "description": "Toasted bread with garlic and butter." }
+      ]
+    },
+    {
+      "title": "Main Courses",
+      "items": [
+        { "name": "Grilled Salmon", "price": 18, "description": "Served with seasonal vegetables." },
+        { "name": "Lasagna", "price": 14, "description": "Layered pasta with beef and béchamel." }
+      ]
+    },
+    {
+      "title": "Main Courses",
+      "items": [
+        { "name": "Grilled Salmon", "price": 18, "description": "Served with seasonal vegetables." },
+        { "name": "Lasagna", "price": 14, "description": "Layered pasta with beef and béchamel." }
+      ]
+    },
+    {
+      "title": "Main Courses",
+      "items": [
+        { "name": "Grilled Salmon", "price": 18, "description": "Served with seasonal vegetables." },
+        { "name": "Lasagna", "price": 14, "description": "Layered pasta with beef and béchamel." }
+      ]
+    }
+  ]
