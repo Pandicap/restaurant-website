@@ -1,19 +1,31 @@
+---
+import LanguageSwitcher from './LanguageSwitcher.astro';
+import { t, type Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+---
+
 <nav class="navbar">
     <div class="logo" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
         <img src="/images/logo.png" alt="Restaurant Logo" />
     </div>
     <ul class="nav-links">
-        <li><a href="#about-us">About Us</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about-us">{t(lang, 'nav.aboutUs')}</a></li>
+        <li><a href="#menu">{t(lang, 'nav.menu')}</a></li>
+        <li><a href="#contact">{t(lang, 'nav.contact')}</a></li>
+        <li><LanguageSwitcher lang={lang} /></li>
     </ul>
     <div class="menu-button">☰</div>
     <ul class="mobile-nav">
-        <li><a href="#about-us">About Us</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about-us">{t(lang, 'nav.aboutUs')}</a></li>
+        <li><a href="#menu">{t(lang, 'nav.menu')}</a></li>
+        <li><a href="#contact">{t(lang, 'nav.contact')}</a></li>
+        <li><LanguageSwitcher lang={lang} /></li>
     </ul>
-    <!-- <button class="theme-toggle" onclick="document.body.classList.toggle('red-theme')">Toggle Theme</button> -->
 </nav>
 
 <script>

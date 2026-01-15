@@ -1,0 +1,32 @@
+{
+  "nav": {
+    "aboutUs": "Über Uns",
+    "menu": "Speisekarte",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "motto": "Ihr neuer Lieblingsort zum Speisen",
+    "hours": "Heute geöffnet: 11:00 - 22:00 Uhr"
+  },
+  "about": {
+    "title": "Über uns – Due Fratelli",
+    "p1": "Ein liebevoll gedeckter Tisch, gute Gespräche mit Freunden oder Familie, dazu der Duft frisch gebackener Pizza und hausgemachter Pasta – das sind die Momente, die das Leben besonders machen. Im Due Fratelli bringen wir genau dieses Lebensgefühl zu Ihnen: mit echter italienischer Küche, Herzlichkeit und einem Ort, an dem man sich willkommen fühlt.",
+    "h2": "Speisen im Ambiente der Grafen von Luckner",
+    "p2": "Gegründet von zwei Brüdern, vereint unser Restaurant kulinarisches Können mit familiärer Gastfreundschaft. Bei uns steht der Mensch im Mittelpunkt – ob Sie spontan vorbeischauen, ein Fest feiern oder einfach einen entspannten Abend genießen möchten.",
+    "p3": "Das Due Fratelli ist direkt in das Ensemble des Kim Schlosshotels im Park integriert und bietet Platz für rund 130 Gäste. Ein einzigartiges Ambiente, das Geschichte, Stil und Gemütlichkeit verbindet.",
+    "h3": "Unsere Küche – frisch, ehrlich, italienisch",
+    "p4": "Ob traditionelle Steinofenpizza, handgemachte Pasta, feine Antipasti oder ein süßes Tiramisu zum Abschluss – bei uns wird mit Leidenschaft gekocht. Wir verwenden ausgewählte Zutaten, viel Liebe zum Detail und legen großen Wert auf Qualität, Geschmack und Authentizität. Ganz so, wie man es aus Italien kennt.",
+    "h4": "Ihr Besuch im Due Fratelli – komfortabel & genussvoll",
+    "p5": "Wir möchten, dass Sie sich bei uns rundum wohlfühlen. Genießen Sie italienische Küche, freundlichen Service und ein Ambiente, das zum Verweilen einlädt. Benvenuti – wir freuen uns auf Ihren Besuch!"
+  },
+  "menu": {
+    "title": "Speisekarte",
+    "subtitle": "Ganz Italien auf einem Teller - im Restaurant oder zum Mitnehmen!"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "address": "Otto-Harzer-Strasse 2 01156 Dresden",
+    "phone": "Telefon: 03514102490",
+    "email": "E-Mail: lucknerpark@duefratelli-dresden.de"
+  }
+}

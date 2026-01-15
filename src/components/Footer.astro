@@ -1,6 +1,16 @@
+---
+import { t, type Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+---
+
 <footer id="contact" class="footer">
-    <h2>Contact Us</h2>
-    <p>123 Main St, Your City</p>
-    <p>Phone: (123) 456-7890</p>
-    <p>Email: contact@restaurant.com</p>
+    <h2>{t(lang, 'contact.title')}</h2>
+    <p>{t(lang, 'contact.address')}</p>
+    <p>{t(lang, 'contact.phone')}</p>
+    <p>{t(lang, 'contact.email')}</p>
 </footer>

@@ -9,6 +9,8 @@
     --app-background: #1a1a1a;
     /* dark grey */
     --footer-background: #000;
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Work Sans', sans-serif;
 }
 
 body.red-theme {
@@ -27,7 +29,7 @@ html {
 body {
     background-color: var(--app-background);
     color: var(--text-color);
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-primary);
     margin: 0;
     overflow-x: hidden;
 }
@@ -163,7 +165,7 @@ a:not(.nav-links a) {
 .hero {
     padding-top: 100px;
     height: 100vh;
-    background: url('/images/restaurant-mock1.jpg') center/cover no-repeat;
+    background: url('/images/outer.jpeg') center/cover no-repeat;
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: overlay;
     color: var(--text-color);
@@ -225,6 +227,7 @@ a:not(.nav-links a) {
     max-width: 400px;
     height: 400px;
     border-radius: 8px;
+    object-fit: cover;
 }
 
 .about-text {
@@ -236,7 +239,7 @@ a:not(.nav-links a) {
 .parallax {
     position: relative;
     height: 400px;
-    background: url('/images/menu-photo.jpg') center/cover fixed no-repeat;
+    background: url('/images/piqsels.com-id-supei.jpg') center/cover fixed no-repeat;
 }
 
 .parallax::before {

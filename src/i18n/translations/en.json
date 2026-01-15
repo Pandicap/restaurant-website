@@ -1,0 +1,32 @@
+{
+  "nav": {
+    "aboutUs": "About Us",
+    "menu": "Menu",
+    "contact": "Contact"
+  },
+  "hero": {
+    "motto": "Your new favorite spot to dine",
+    "hours": "Open today: 11:00 AM - 10:00 PM"
+  },
+  "about": {
+    "title": "About Us – Due Fratelli",
+    "p1": "A lovingly set table, good conversations with friends or family, the aroma of freshly baked pizza and homemade pasta – these are the moments that make life special. At Due Fratelli, we bring exactly this feeling to you: with authentic Italian cuisine, warmth, and a place where you feel welcome.",
+    "h2": "Dining in the Ambiance of the Counts of Luckner",
+    "p2": "Founded by two brothers, our restaurant combines culinary expertise with familial hospitality. Here, people come first – whether you're stopping by spontaneously, celebrating a special occasion, or simply enjoying a relaxed evening.",
+    "p3": "Due Fratelli is integrated directly into the ensemble of Kim Schlosshotel im Park and offers seating for around 130 guests. A unique ambiance that combines history, style, and comfort.",
+    "h3": "Our Kitchen – Fresh, Honest, Italian",
+    "p4": "Whether traditional stone-oven pizza, handmade pasta, fine antipasti, or a sweet tiramisu to finish – we cook with passion. We use selected ingredients, great attention to detail, and place high value on quality, taste, and authenticity. Just like you would expect from Italy.",
+    "h4": "Your Visit to Due Fratelli – Comfortable & Delightful",
+    "p5": "We want you to feel completely at home with us. Enjoy Italian cuisine, friendly service, and an ambiance that invites you to linger. Benvenuti – we look forward to your visit!"
+  },
+  "menu": {
+    "title": "Menu",
+    "subtitle": "All of Italy on one plate - in the restaurant or to take away!"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "address": "Otto-Harzer-Strasse 2 01156 Dresden",
+    "phone": "Phone: 03514102490",
+    "email": "E-Mail: lucknerpark@duefratelli-dresden.de"
+  }
+}

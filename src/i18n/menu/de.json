@@ -1,0 +1,332 @@
+[
+  {
+    "title": "Antipasti-Vorspeisen",
+    "items": [
+      {
+        "name": "Bruschetta Tradizionale",
+        "price": "7.50",
+        "description": "Knuspriges, geröstetes Brot, eingerieben mit frischem Knoblauch, belegt mit marinierten Cherrytomaten, frischem Basilikum und bestem Olivenöl."
+      },
+      {
+        "name": "Carpaccio di Manzo",
+        "price": "14,50",
+        "description": "Zartes Rinderfilet, hauchdünn geschnitten, serviert mit frischem Rucola, gehobeltem Parmesan und einem Spritzer Zitrone."
+      },
+      {
+        "name": "Insalata Caprese con Burrata",
+        "price": "10,90",
+        "description": "Cremige Burrata trifft auf aromatische Tomaten, frisches Basilikum und kaltgepresstes Olivenöl – ein Klassiker in neuer Variante."
+      },
+      {
+        "name": "Vitello Tonnato",
+        "price": "14,50",
+        "description": "Kalbfleisch in feinen Scheiben, angerichtet mit einer leichten Thunfisch-Kapern-Sauce, frischem Rucola und Olivenöl."
+      },
+      {
+        "name": "Gemischte Vorspeisenplate für zwei",
+        "price": "22,90",
+        "description": "Gegrilltes mediterranes Gemüse, Oliven, Artischockenherzen, Vitello, liebevoll angerichtet mit hausgemachtem Brot."
+      },
+      {
+        "name": "Pizza Pane",
+        "price": "8,90",
+        "description": "Frisches Pizzabrot aus dem Steinofen mit Knoblauch, Olivenöl und Rosmarin."
+      }
+    ]
+  },
+  {
+    "title": "Insalate-Salat",
+    "items": [
+      {
+        "name": "Insalata Mista",
+        "price": "Kleine 5,20 € / 7,50",
+        "description": "Frischer, gemischter Salat"
+      },
+      {
+        "name": "Insalata Napoli",
+        "price": "12,50",
+        "description": "Gemischter Salat mit gegrillter Hähnchenbrust"
+      }
+    ]
+  },
+  {
+    "title": "Zuppe-Suppen",
+    "items": [
+      {
+        "name": "Crema di Pomodoro",
+        "price": "7,00",
+        "description": "Tomatencremesuppe"
+      },
+      {
+        "name": "Minestrone",
+        "price": "7,50",
+        "description": "Italienisches Gemüsesuppe"
+      }
+    ]
+  },
+  {
+    "title": "Pasta",
+    "items": [
+      {
+        "name": "Penne all'Arrabbiata",
+        "price": "12,40",
+        "description": "Penne in einer feurig-würzigen Tomatensauce mit Knoblauch, Chili und Basilikum."
+      },
+      {
+        "name": "Spaghetti alla Carbonara",
+        "price": "14,50",
+        "description": "Spaghetti mit Bauchspeck, Ei, Sahne und geriebenem Pecorino, verfeinert mit frisch gemahlenem Pfeffer. (Auf Wunsch auch ohne Sahne erhältlich.)"
+      },
+      {
+        "name": "Tortellini Prosciutto e Panna",
+        "price": "15,00",
+        "description": "Gefüllte Tortellini in Sahnesauce mit feinem Kochschinken, verfeinert mit Parmesan."
+      },
+      {
+        "name": "Spaghetti Bolognese",
+        "price": "14,50",
+        "description": "Spaghetti mit klassischer Rinderhackfleisch-Tomatensauce, verfeinert mit Kräutern."
+      },
+      {
+        "name": "Penne al Pesto",
+        "price": "14,50",
+        "description": "Penne mit hausgemachtem Basilikumpesto, gerösteten Pinienkernen und Parmesan."
+      },
+      {
+        "name": "Tagliatelle al Salmone",
+        "price": "16,00",
+        "description": "Tagliatelle mit Lachs in cremiger Weißweinsauce, mit Dill und Zitronenzeste."
+      },
+      {
+        "name": "Penne all'Amatriciana",
+        "price": "15,00",
+        "description": "Penne mit Bauchspeck, Zwiebeln, Tomatensauce und Pecorino."
+      },
+      {
+        "name": "Spaghetti Aglio e Olio",
+        "price": "11,50",
+        "description": "Spaghetti in Olivenöl mit Knoblauch, Peperoncino und Petersilie."
+      },
+      {
+        "name": "Spaghetti ai Gamberi",
+        "price": "16,50",
+        "description": "Spaghetti mit Garnelen in Tomatensauce, mit Knoblauch, Chili und Petersilie."
+      },
+      {
+        "name": "Pasta al Tartufo",
+        "price": "17,90",
+        "description": "Frische Tagliatelle in einer cremigen Sahnesoße, verfeinert mit edlem Trüffelöl und frisch geriebenem Parmesan."
+      },
+      {
+        "name": "Paccheri Ortolana",
+        "price": "15,90",
+        "description": "Große Röhrennudeln mit frischem mediterranem Gemüse in einer leichten Tomatensauce."
+      },
+      {
+        "name": "Paccheri Straccetti di Manzo",
+        "price": "18,90",
+        "description": "Große Röhrennudeln mit zarten Rinderstreifen, Rucola, Knoblauch und Tomatensauce, abgerundet mit gehobeltem Parmesan."
+      },
+      {
+        "name": "Lasagne al Forno",
+        "price": "15,40",
+        "description": "Nudelauflauf mit Hackfleisch, Béchamelsauce und Käse, im Ofen goldbraun überbacken."
+      }
+    ]
+  },
+  {
+    "title": "Pizza",
+    "items": [
+      {
+        "name": "Pizza Margherita",
+        "price": "11,20",
+        "description": "Tomatensauce, Mozzarella und frisches Basilikum."
+      },
+      {
+        "name": "Pizza Salame",
+        "price": "13,50",
+        "description": "Tomatensauce, Mozzarella und italienische Salami."
+      },
+      {
+        "name": "Pizza Prosciutto",
+        "price": "13,50",
+        "description": "Tomatensauce, Mozzarella und feiner Kochschinken."
+      },
+      {
+        "name": "Pizza Caprese",
+        "price": "16,00",
+        "description": "Tomatensauce, frische Tomaten, Buffelmozzarella, Basilikum und Olivenöl."
+      },
+      {
+        "name": "Pizza Quattro Formaggi",
+        "price": "17,00",
+        "description": "Tomatensauce, Mozzarella, Gorgonzola, Parmesan und Taleggio."
+      },
+      {
+        "name": "Pizza Vegetariana",
+        "price": "15,50",
+        "description": "Tomatensauce, Mozzarella und gegrilltes Gemüse."
+      },
+      {
+        "name": "Pizza Spinaci e Uovo",
+        "price": "14,50",
+        "description": "Mozzarella, Spinat, Knoblauch und ein ofenfrisches Ei."
+      },
+      {
+        "name": "Pizza Tonno",
+        "price": "16,00",
+        "description": "Tomatensauce, Mozzarella, Thunfisch und rote Zwiebeln."
+      },
+      {
+        "name": "Pizza Parma",
+        "price": "16,50",
+        "description": "Tomatensauce, Mozzarella, Parmaschinken, Rucola und gehobelter Parmesan."
+      },
+      {
+        "name": "Pizza Due Fratelli (bianca)",
+        "price": "18,90",
+        "description": "Mit Trüffelcreme, Mozzarella, frischen Champignons, Trüffelöl und Burrata."
+      },
+      {
+        "name": "Pizza Capricciosa",
+        "price": "17,00",
+        "description": "Tomatensauce, Mozzarella, Kochschinken, Artischocken, Champignons und Oliven."
+      },
+      {
+        "name": "Pizza Salami Piccante",
+        "price": "16,50",
+        "description": "Tomatensauce, Mozzarella und scharfe italienische Salami."
+      },
+      {
+        "name": "Calzone Tradizionale",
+        "price": "17,00",
+        "description": "Gefüllt mit Tomatensauce, Mozzarella, Salami, Schinken und Champignons."
+      },
+      {
+        "name": "Pizza Funghi",
+        "price": "13,00",
+        "description": "Mit Tomatensauce, Mozzarella und frischen Champignons."
+      }
+    ]
+  },
+  {
+    "title": "Fleisch & Fisch",
+    "items": [
+      {
+        "name": "Tagliata di Manzo",
+        "price": "30,10",
+        "description": "Rinderfilet, rosa gebraten, auf Rucola mit Parmesan und Balsamico. Dazu Rosmarinkartoffeln."
+      },
+      {
+        "name": "Scaloppine al Limone",
+        "price": "28,80",
+        "description": "Kalbsschnitzel in Zitronen-Weißweinsauce mit mediterranem Gemüse und Ofenkartoffeln."
+      },
+      {
+        "name": "Bistecca alla Griglia",
+        "price": "30,30",
+        "description": "Gegrilltes Rindersteak mit Grillgemüse und Kräuterbutter."
+      },
+      {
+        "name": "Salmone alla Griglia",
+        "price": "28,90",
+        "description": "Gegrilltes Lachsfilet mit Zitronen-Olivenöl, mediterranem Gemüse und Ofenkartoffeln."
+      },
+      {
+        "name": "Wolfsbarsch vom Grill",
+        "price": "29,50",
+        "description": "Frischer Wolfsbarsch, im Ganzen gegrillt mit Zitrone, Olivenöl, Kräutern und Grillgemüse."
+      },
+      {
+        "name": "Orata alla Griglia (Dorade Royal)",
+        "price": "29,50",
+        "description": "Dorade Royal vom Grill mit Zitrone, Kräutern und Gemüse."
+      }
+    ]
+  },
+  {
+    "title": "Desserts",
+    "items": [
+      {
+        "name": "Tiramisù della Casa",
+        "price": "7,20",
+        "description": "Hausgemachtes Tiramisu mit Mascarponecreme, Löffelbiskuit und einem Hauch Espresso."
+      },
+      {
+        "name": "Panna Cotta alla Vaniglia",
+        "price": "7,00",
+        "description": "Vanillecreme mit fruchtigem Himbeer- oder Erdbeerspiegel."
+      },
+      {
+        "name": "Soufflé al Cioccolato",
+        "price": "7,50",
+        "description": "Warmer Schokoladenkuchen mit flüssigem Kern, serviert mit Vanilleeis."
+      },
+      {
+        "name": "Dolce del Giorno",
+        "price": "8,00",
+        "description": "Unser Dessert des Tages – lassen Sie sich überraschen!"
+      }
+    ]
+  },
+  {
+    "title": "Bambini-Kinder",
+    "items": [
+      {
+        "name": "Pizza Margherita",
+        "price": "7,00",
+        "description": "Tomatensauce, Mozzarella und frisches Basilikum."
+      },
+      {
+        "name": "Pizza Salami",
+        "price": "7,50",
+        "description": "Tomatensauce, Mozzarella und italienische Salami."
+      },
+      {
+        "name": "Pizza Prosciutto",
+        "price": "7,50",
+        "description": "Tomatensauce, Mozzarella und feiner Kochschinken."
+      },
+      {
+        "name": "Penne mit Butter",
+        "price": "6,50",
+        "description": "Nudeln in geschmolzener Butter."
+      },
+      {
+        "name": "Penne al Pomodoro",
+        "price": "6,50",
+        "description": "Kleine Penne-Nudeln in einer milden, fruchtigen Tomatensauce."
+      }
+    ]
+  },
+  {
+    "title": "Gelato-Eis",
+    "items": [
+      {
+        "name": "Himbeertraum",
+        "price": "8,90",
+        "description": "Zwei Kugeln Vanilleeis und eine Kugel Himbeereis, Himbeersauce, Sahne und knusprige Waffel."
+      },
+      {
+        "name": "Schokotraum",
+        "price": "8,90",
+        "description": "Zwei Kugeln Schokoladeneis und eine Kugel Vanilleeis, überzogen mit feiner Schokoladensauce, dazu Sahne."
+      },
+      {
+        "name": "Coppa Frutta Fresca",
+        "price": "9,50",
+        "description": "Vanille- und Erdbeereis, dazu frische Früchte der Saison, Sahne und knusprige Waffel."
+      },
+      {
+        "name": "Coppa Bambini",
+        "price": "5,90",
+        "description": "Eine Kugel Vanille- und eine Kugel Erdbeereis, mit Streuseln."
+      },
+      {
+        "name": "Coppa Trilogia",
+        "price": "8,90",
+        "description": "Drei Kugeln Eis deiner Wahl, Erdbeere- oder Schokosauce, mit Sahne."
+      }
+    ]
+  }
+]

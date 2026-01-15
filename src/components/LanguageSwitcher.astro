@@ -1,0 +1,16 @@
+---
+import { languages, getLangFromUrl, getTranslatedPath, getOtherLang, type Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const otherLang = getOtherLang(lang);
+const otherLangLabel = languages[otherLang];
+const switchUrl = getTranslatedPath(Astro.url, otherLang);
+---
+
+<a href={switchUrl} class="lang-switch">
+  {otherLangLabel}
+</a>

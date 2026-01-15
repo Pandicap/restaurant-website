@@ -1,5 +1,12 @@
 ---
-import menuData from "../data/menu.json";
+import { t, getMenu, type Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const menuData = getMenu(lang);
 ---
 
 <section class="hero">
@@ -8,48 +15,38 @@ import menuData from "../data/menu.json";
         alt="Restaurant Name"
         class="restaurant-name-image"
     />
-    <p class="moto">Your new favorite spot to dine</p>
-    <p class="hours">Open today: 11:00 AM - 10:00 PM</p>
+    <p class="moto">{t(lang, 'hero.motto')}</p>
+    <p class="hours">{t(lang, 'hero.hours')}</p>
 </section>
 
 <!-- About Us -->
 <section id="about-us" class="about-section content-container">
     <img
-        src="/images/restaurant-interior-mock1.jpg"
-        alt="Restaurant Interior"
+        src="/images/family.jpeg"
+        alt="Restaurant Family"
         class="about-image"
     />
     <div class="about-text">
-        <h2>About Us</h2>
-        <p>
-            Welcome to our restaurant, where we blend tradition and taste to
-            create unforgettable dining experiences...
-        </p>
-        <p>
-            Welcome to our restaurant, where we blend tradition and taste to
-            create unforgettable dining experiences...
-        </p>
-        <p>
-            Welcome to our restaurant, where we blend tradition and taste to
-            create unforgettable dining experiences...
-        </p>
-        <p>
-            Welcome to our restaurant, where we blend tradition and taste to
-            create unforgettable dining experiences...
-        </p>
-        <p>
-            Welcome to our restaurant, where we blend tradition and taste to
-            create unforgettable dining experiences... asdfsaasdfasdfasdf
-            adsfasdfasdfaasdfas asdf asd asf asdf asdf asdfads a a fasf
-        </p>
+        <h2>{t(lang, 'about.title')}</h2>
+        <p>{t(lang, 'about.p1')}</p>
+
+        <p>{t(lang, 'about.h2')}</h3>
+        <p>{t(lang, 'about.p2')}</p>
+        <p>{t(lang, 'about.p3')}</p>
+
+        <p>{t(lang, 'about.h3')}</h3>
+        <p>{t(lang, 'about.p4')}</p>
+
+        <p>{t(lang, 'about.h4')}</h3>
+        <p>{t(lang, 'about.p5')}</p>
     </div>
 </section>
 
 <!-- Parallax Section -->
 <section id="menu" class="parallax">
     <div class="content">
-        <h1>Menu</h1>
-        <h3>All of Italy on one plate - in the restaurant or to take away!</h3>
+        <h1>{t(lang, 'menu.title')}</h1>
+        <h3>{t(lang, 'menu.subtitle')}</h3>
     </div>
 </section>
 
@@ -70,7 +67,7 @@ import menuData from "../data/menu.json";
                                 <div class="menu-item-header">
                                     <span class="dish-name">{item.name}</span>
                                     <span class="dish-price">
-                                        ${item.price}
+                                        {item.price} €
                                     </span>
                                 </div>
                                 <div class="menu-dots" />

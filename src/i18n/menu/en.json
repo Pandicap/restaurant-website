@@ -1,0 +1,332 @@
+[
+  {
+    "title": "Antipasti-Starters",
+    "items": [
+      {
+        "name": "Traditional Bruschetta",
+        "price": "7.50",
+        "description": "Crispy toasted bread rubbed with fresh garlic, topped with marinated cherry tomatoes, fresh basil, and premium olive oil."
+      },
+      {
+        "name": "Beef Carpaccio",
+        "price": "14.50",
+        "description": "Tender beef fillet, thinly sliced, served with fresh rocket, shaved Parmesan, and a splash of lemon."
+      },
+      {
+        "name": "Caprese with Burrata",
+        "price": "10.90",
+        "description": "Creamy burrata with aromatic tomatoes, fresh basil, and cold-pressed olive oil – a classic with a modern twist."
+      },
+      {
+        "name": "Vitello Tonnato",
+        "price": "14.50",
+        "description": "Thinly sliced veal served with a light tuna and caper sauce, fresh rocket, and olive oil."
+      },
+      {
+        "name": "Mixed Antipasti Platter for Two",
+        "price": "22.90",
+        "description": "Grilled Mediterranean vegetables, olives, artichoke hearts, veal, carefully arranged and served with homemade bread."
+      },
+      {
+        "name": "Pizza Bread",
+        "price": "8.90",
+        "description": "Fresh pizza bread baked in a stone oven with garlic, olive oil, and rosemary."
+      }
+    ]
+  },
+  {
+    "title": "Salads",
+    "items": [
+      {
+        "name": "Mixed Salad",
+        "price": "Small 5,20 € / 7,50",
+        "description": "Fresh, mixed salad"
+      },
+      {
+        "name": "Napoli Salad",
+        "price": "12,50",
+        "description": "Mixed salad with grilled chicken breast"
+      }
+    ]
+  },
+  {
+    "title": "Soups & Pasta",
+    "items": [
+      {
+        "name": "Tomato Cream Soup",
+        "price": "7,00",
+        "description": "Tomato cream soup"
+      },
+      {
+        "name": "Minestrone",
+        "price": "7,50",
+        "description": "Italian vegetable soup with pasta"
+      }
+    ]
+  },
+  {
+    "title": "Pasta",
+    "items": [
+      {
+        "name": "Penne all'Arrabbiata",
+        "price": "12,40",
+        "description": "Penne in a spicy tomato sauce with garlic, chili, and basil"
+      },
+      {
+        "name": "Spaghetti alla Carbonara",
+        "price": "14,50",
+        "description": "Spaghetti with bacon, egg, cream, and grated Pecorino, finished with freshly ground pepper"
+      },
+      {
+        "name": "Tortellini Prosciutto e Panna",
+        "price": "15,00",
+        "description": "Filled tortellini in a cream sauce with fine cooked ham, finished with Parmesan"
+      },
+      {
+        "name": "Spaghetti Bolognese",
+        "price": "14,50",
+        "description": "Spaghetti with classic minced beef tomato sauce, finished with herbs"
+      },
+      {
+        "name": "Penne al Pesto",
+        "price": "14,50",
+        "description": "Penne with homemade basil pesto, toasted pine nuts, and Parmesan"
+      },
+      {
+        "name": "Tagliatelle al Salmone",
+        "price": "16,00",
+        "description": "Tagliatelle with salmon in creamy white wine sauce, with dill and lemon zest"
+      },
+      {
+        "name": "Penne all'Amatriciana",
+        "price": "15,00",
+        "description": "Penne with bacon, onions, tomato sauce, and Pecorino"
+      },
+      {
+        "name": "Spaghetti Aglio e Olio",
+        "price": "11,50",
+        "description": "Spaghetti in olive oil with garlic, chili, and parsley"
+      },
+      {
+        "name": "Spaghetti with Shrimp",
+        "price": "16,50",
+        "description": "Spaghetti with shrimp in tomato sauce, with garlic, chili, and parsley"
+      },
+      {
+        "name": "Pasta with Truffle",
+        "price": "17,90",
+        "description": "Fresh tagliatelle in a creamy sauce, finished with premium truffle oil and freshly grated Parmesan"
+      },
+      {
+        "name": "Paccheri Ortolana",
+        "price": "15,90",
+        "description": "Large tube pasta with fresh Mediterranean vegetables in a light tomato sauce"
+      },
+      {
+        "name": "Paccheri with Beef Strips",
+        "price": "18,90",
+        "description": "Large tube pasta with tender beef strips, rocket, garlic, and tomato sauce, finished with shaved Parmesan"
+      },
+      {
+        "name": "Lasagne al Forno",
+        "price": "15,40",
+        "description": "Baked pasta casserole with minced meat, béchamel sauce, and cheese, baked golden in the oven"
+      }
+    ]
+  },
+  {
+    "title": "Pizza",
+    "items": [
+      {
+        "name": "Pizza Margherita",
+        "price": "11,20",
+        "description": "Tomato sauce, mozzarella, and fresh basil."
+      },
+      {
+        "name": "Pizza Salame",
+        "price": "13,50",
+        "description": "Tomato sauce, mozzarella, and Italian salami."
+      },
+      {
+        "name": "Pizza Prosciutto",
+        "price": "13,50",
+        "description": "Tomato sauce, mozzarella, and fine cooked ham."
+      },
+      {
+        "name": "Pizza Caprese",
+        "price": "16,00",
+        "description": "Tomato sauce, fresh tomatoes, buffalo mozzarella, basil, and olive oil."
+      },
+      {
+        "name": "Pizza Quattro Formaggi",
+        "price": "17,00",
+        "description": "Tomato sauce, mozzarella, Gorgonzola, Parmesan, and Taleggio."
+      },
+      {
+        "name": "Pizza Vegetariana",
+        "price": "15,50",
+        "description": "Tomato sauce, mozzarella, and grilled vegetables."
+      },
+      {
+        "name": "Pizza Spinaci e Uovo",
+        "price": "14,50",
+        "description": "Mozzarella, spinach, garlic, and a baked egg."
+      },
+      {
+        "name": "Pizza Tonno",
+        "price": "16,00",
+        "description": "Tomato sauce, mozzarella, tuna, and red onions."
+      },
+      {
+        "name": "Pizza Parma",
+        "price": "16,50",
+        "description": "Tomato sauce, mozzarella, Parma ham, rocket, and grated Parmesan cheese."
+      },
+      {
+        "name": "Pizza Due Fratelli (bianca)",
+        "price": "18,90",
+        "description": "With truffle cream, mozzarella, fresh mushrooms, truffle oil, and burrata."
+      },
+      {
+        "name": "Pizza Capricciosa",
+        "price": "17,00",
+        "description": "Tomato sauce, mozzarella, cooked ham, artichokes, mushrooms, and olives."
+      },
+      {
+        "name": "Pizza Salami Piccante",
+        "price": "16,50",
+        "description": "Tomato sauce, mozzarella, and spicy Italian salami."
+      },
+      {
+        "name": "Calzone Tradizionale",
+        "price": "17,00",
+        "description": "Filled with tomato sauce, mozzarella, salami, ham, and mushrooms."
+      },
+      {
+        "name": "Pizza Funghi",
+        "price": "13,00",
+        "description": "With tomato sauce, mozzarella, and fresh mushrooms."
+      }
+    ]
+  },
+  {
+    "title": "Meat & Fish",
+    "items": [
+      {
+        "name": "Tagliata di Manzo",
+        "price": "30,10",
+        "description": "Beef fillet, medium rare, on rocket with Parmesan and balsamic. Served with rosemary potatoes."
+      },
+      {
+        "name": "Scaloppine al Limone",
+        "price": "28,80",
+        "description": "Veal schnitzel in lemon-white wine sauce with Mediterranean vegetables and baked potatoes."
+      },
+      {
+        "name": "Bistecca alla Griglia",
+        "price": "30,30",
+        "description": "Grilled beef steak with grilled vegetables and herb butter."
+      },
+      {
+        "name": "Salmone alla Griglia",
+        "price": "28,90",
+        "description": "Grilled salmon fillet with lemon-olive oil, Mediterranean vegetables, and baked potatoes."
+      },
+      {
+        "name": "Grilled Sea Bass",
+        "price": "29,50",
+        "description": "Fresh sea bass, grilled whole with lemon, olive oil, herbs, and grilled vegetables."
+      },
+      {
+        "name": "Grilled Gilthead Bream (Dorade Royal)",
+        "price": "29,50",
+        "description": "Grilled Dorade Royal with lemon, herbs, and vegetables."
+      }
+    ]
+  },
+  {
+    "title": "Desserts",
+    "items": [
+      {
+        "name": "Tiramisù della Casa",
+        "price": "7,20",
+        "description": "Homemade tiramisu with mascarpone cream, ladyfingers, and a hint of espresso."
+      },
+      {
+        "name": "Panna Cotta alla Vaniglia",
+        "price": "7,00",
+        "description": "Vanilla cream with a fruity raspberry or strawberry sauce."
+      },
+      {
+        "name": "Soufflé al Cioccolato",
+        "price": "7,50",
+        "description": "Warm chocolate cake with a molten center, served with vanilla ice cream."
+      },
+      {
+        "name": "Dolce del Giorno",
+        "price": "8,00",
+        "description": "Our dessert of the day – let yourself be surprised!"
+      }
+    ]
+  },
+  {
+    "title": "Kids Menu",
+    "items": [
+      {
+        "name": "Pizza Margherita",
+        "price": "7,00",
+        "description": "Tomato sauce, mozzarella, and fresh basil."
+      },
+      {
+        "name": "Pizza Salami",
+        "price": "7,50",
+        "description": "Tomato sauce, mozzarella, and Italian salami."
+      },
+      {
+        "name": "Pizza Prosciutto",
+        "price": "7,50",
+        "description": "Tomato sauce, mozzarella, and fine cooked ham."
+      },
+      {
+        "name": "Penne with Butter",
+        "price": "6,50",
+        "description": "Pasta in melted butter."
+      },
+      {
+        "name": "Penne al Pomodoro",
+        "price": "6,50",
+        "description": "Small penne pasta in a mild, fruity tomato sauce."
+      }
+    ]
+  },
+  {
+    "title": "Gelato",
+    "items": [
+      {
+        "name": "Raspberry Dream",
+        "price": "8,90",
+        "description": "Two scoops of vanilla ice cream and one scoop of raspberry ice cream, with raspberry sauce, whipped cream, and a crispy waffle."
+      },
+      {
+        "name": "Chocolate Dream",
+        "price": "8,90",
+        "description": "Two scoops of chocolate ice cream and one scoop of vanilla ice cream, topped with fine chocolate sauce, served with whipped cream."
+      },
+      {
+        "name": "Coppa Frutta Fresca",
+        "price": "9,50",
+        "description": "Vanilla and strawberry ice cream with fresh seasonal fruits, whipped cream, and a crispy waffle."
+      },
+      {
+        "name": "Coppa Bambini",
+        "price": "5,90",
+        "description": "One scoop of vanilla and one scoop of strawberry ice cream, with sprinkles."
+      },
+      {
+        "name": "Coppa Trilogia",
+        "price": "8,90",
+        "description": "Three scoops of ice cream of your choice, with strawberry or chocolate sauce and whipped cream."
+      }
+    ]
+  }
+]
