@@ -4,11 +4,11 @@ import enMenu from './menu/en.json';
 import deMenu from './menu/de.json';
 
 export const languages = {
-  en: 'English',
   de: 'Deutsch',
+  en: 'English',
 } as const;
 
-export const defaultLang = 'en';
+export const defaultLang = 'de';
 
 export type Lang = keyof typeof languages;
 
