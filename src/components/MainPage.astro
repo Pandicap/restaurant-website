@@ -44,11 +44,37 @@ const menuData = getMenu(lang);
 
 <!-- Parallax Section -->
 <section id="menu" class="parallax">
+    <div class="parallax-bg"></div>
     <div class="content">
         <h1>{t(lang, 'menu.title')}</h1>
         <h3>{t(lang, 'menu.subtitle')}</h3>
     </div>
 </section>
+
+<script>
+    // Safari-compatible parallax effect using transform
+    const parallaxSection = document.querySelector('.parallax');
+    const parallaxBg = document.querySelector('.parallax-bg');
+
+    if (parallaxSection && parallaxBg) {
+        const updateParallax = () => {
+            const rect = parallaxSection.getBoundingClientRect();
+            const windowHeight = window.innerHeight;
+
+            // Only apply effect when section is in viewport
+            if (rect.bottom > 0 && rect.top < windowHeight) {
+                // Calculate parallax offset - higher multiplier = stronger effect
+                const scrolled = (windowHeight - rect.top) / (windowHeight + rect.height);
+                const yOffset = (scrolled - 0.5) * 300;
+                parallaxBg.style.transform = `translateY(${yOffset}px)`;
+            }
+        };
+
+        window.addEventListener('scroll', updateParallax, { passive: true });
+        window.addEventListener('resize', updateParallax, { passive: true });
+        updateParallax(); // Initial call
+    }
+</script>
 
 <!-- Menu -->
 <section class="menu-section content-container">
