@@ -1,9 +1,9 @@
 :root {
     --bg-color: #000;
     /* black */
-    --text-color: #FFD700;
+    --text-color: #BFA133;
     /* gold */
-    --accent-color: #DAA520;
+    --accent-color: #B8860B;
     /* goldenrod */
     --hover-color: #ffffff;
     --app-background: #1a1a1a;
@@ -233,6 +233,10 @@ a:not(.nav-links a) {
 .about-text {
     /* flex: 1; */
     width: 50vw;
+}
+
+.about-text h3 {
+    color: #ffffff;
 }
 
 /* PARALLAX */
